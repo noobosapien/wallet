@@ -5,18 +5,20 @@ import './Tab1.css';
 const Tab1: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
+      {/* <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <IonTitle>Tab 14</IonTitle>
         </IonToolbar>
-      </IonHeader>
+      </IonHeader> */}
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 1</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
+        {/* <iframe src="http://3.104.94.74:3000/" title="google" style={{
+          width: '100%',
+          height: '100%'
+        }}/> */}
+        <iframe src="https://igquacker.com/" title="google" style={{
+          width: '100%',
+          height: '100%'
+        }}/>
       </IonContent>
     </IonPage>
   );
